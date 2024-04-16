@@ -1,0 +1,728 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?   
+
+#jayraskar
+- intent: mycitypedia
+  examples: |
+   - about mycitypedia
+   - what is mycitypedia
+   - how will you help me
+   - tell me about mycitypedia
+   - mycitypedia
+   - goals of mycitypedia
+   - why mycitypedia
+   - how is mycitypedia better
+   - info about mycitypedia
+   - information about mycitypedia
+   - why mycitypedia
+
+
+- intent: hospitals
+  examples: |
+   - what are the top-rated hospitals in new panvel
+   - hospitals near me
+   - show hospitals in new panvel 
+   - hospitals
+   - hospitals and clinics
+   - suggest good hospitals
+   - give hospitals names near me
+   - tell me about hospitals specializing in cardiology and heart care.
+   - children hospitals
+   - emergency hospital
+   - doctors
+   - hospitals care and medical shops
+   - hospitals medicines
+   - medical facilities
+   - new panvel hospitals
+   - where's the nearest emergency hospital with trauma care facilities?
+   - suggest good hospitals
+   - tell me about best hospitals
+   - top hospitals
+   - best hospitals
+   - new panvel hospitals
+   - panvel hospital
+   - great hospital
+   - 24/7 hospitals
+   - best 24/7 facility hospitals
+   - top rated hospitals near me
+   - health issues 
+
+
+
+- intent: clinics
+  examples: |
+   - clinics near me
+   - clinics with best doctors
+   - clinics and doctors 
+   - doctors near me
+   - closest clinic
+   - suggest clinics
+   - suggest good clinics
+   - give clinics in new panvel
+   - new panvel clinics
+   - 24/7 clinics near me
+   - new panvel clinics
+   - panvel clinic 
+   - good clinics
+   - show me clinics near me
+   - timings of clinics
+   - dentist clinic
+   - best clinics near me
+   - good clinics
+   - high ratings clinics
+   - clinics
+   - new panvel doctors 
+   - new panvel clinics 
+   - famous clinics
+   - high rated doctors
+   - health services
+   
+    
+   
+- intent: shopping
+  examples: |
+   - shop nearby
+   - shopping 
+   - best shops to buy from
+   - good clothing shops
+   - great shops
+   - electronic shops
+   - highly rated shops
+   - show me nearest shops 
+   - good shops
+   - clothing
+   - electronics shops
+   - toys shop
+   - mobile stores 
+   - stores
+   - stores near me 
+   - good stores 
+   - new panvel shopping
+   - new panvel shops
+   - give me shops list 
+   - suggest shops near me
+   - shops near me
+   - best shops 
+   - best stores
+   - famous shops
+   - famous stores
+   
+
+#rohan
+
+
+- intent: hotels
+  examples: |
+   - high rated hotels
+   - new panvel hotels
+   - tell me about some good low budget hotels near by
+   - suggest me hotels nearby
+   - show me hotels with good rating 
+   - suggest some hotels with good ratings
+   - are their any hotels nearby with some offer
+   - hotels nearby with offers 
+   - places to stay near by
+   - places to spend a night
+   - best hotels near by 
+   - lodge near by 
+   - hotels panvel 
+   - nearby hotels 
+   - hotels new panvel
+   - late night stay 
+   - stay panvel 
+   - hotels for room
+   - rooms for booking 
+   - cheap hotels panvel 
+   - hotels with safe enviornment 
+   - safe hotels for girls 
+   - best hotels panvel 
+   - 24/7 room service hotels
+   - hotels having good ambiance
+   - good safety standard hotels
+   - best room service
+   - good ratings hotel
+   - hotels
+   - hotels near me
+
+- intent: financial_institution
+  examples: |
+   - which bank offers the best interest rates for savings accounts
+   - suggest me some near by banks 
+   - show banks near me 
+   - banks near by to take loan
+   - finance institute near by 
+   - show near by banks with good ratings
+   - nearby icici bank
+   - nearby banks 
+   - nearby bank that provide gold loan
+   - best bank nearby
+   - banks with low rate interest 
+   - banks with locker availability 
+   - banks panvel 
+   - want to take loan 
+   - bank new panvel
+   - banks
+   - good rating banks
+   - suggest nearby banks
+   - hdfc bank near me
+   - sbi bank near me
+   - axis bank
+   - loans 
+   - insurance policy
+   - finance 
+   - investment 
+   - interest rates 
+   - fixed deposit 
+   - good services bank
+   - best staff bank near me
+   - banking services
+   - new panvel banks near me
+   - banks new panvel
+ 
+    
+- intent: fintness
+  examples: |
+   - gyms near by 
+   - gym near by
+   - suggests me gyms 
+   - show places to workout  
+   - yoga institution nearby
+   - fitness centers 
+   - fitness panvel 
+   - places to do yoga 
+   - fitness new panvel  
+   - fitness equipment 
+   - loose wieght 
+   - places to get fit 
+   - gym panvel  
+   - places to workout  
+   - gyms new panvel  
+   - places to stay healthy 
+   - want to get fit 
+   - gym with good ratings 
+   - gym with cheap rates 
+   - affordable gyms 
+   - healthy lifestyle
+   - lifestyle
+   - good health
+   - great shape
+   - six pack abs
+   - athelets body
+   - muscle building
+   - boxing gyms near me
+   - kick boxing new panvel
+   - karate new panvel
+   - physical training near me
+   - gym instructors panvel
+   - gym trainers 
+   - high rated gym trainers
+   
+
+- intent: local_markets 
+  examples: |
+    - local markets nearby  
+    - local markets new panvel 
+    - show local markets
+    - rations   
+    - daily shopping 
+    - grocery shop near by  
+    - markets panvel 
+    - local markets with cheap rates  
+    - best local markets nearby 
+    - place to buy clothes  
+    - local shops panvel 
+    - budget shopping
+    - affordable
+    - local farmers market 
+    - farmers market panvel 
+    - fresh vegetables  
+    - buy dairy nearby 
+    - fruits 
+    - fresh 
+    - local chicken shops  
+    - meat shops 
+    - local markets new panvel 
+    - famous market
+    - food grocery shops
+    - kirana maal shops
+    - sabzi mandi
+    - bazaar near me
+    - high rated bazaar 
+    - famous local markets
+    
+    
+- intent: places_to_visit  
+  examples: |
+    - plcaces to visit nearby  
+    - places to visit new panvel 
+    - fun 
+    - tourist attractions 
+    - tourism new panvel 
+    - places to visit on weekend 
+    - what to do on weekend 
+    - kid friendly places to visit on holiday 
+    - amusement parks 
+    - parks 
+    - trecks panvel   
+    - nature  
+    - scenery new panvel   
+    - fun places to visit nearby 
+    - vacation
+    - staycation 
+    - break 
+    - holiday 
+    - trip  
+    - travel panvel 
+    - tourist attraction with good ratings 
+    - famous places to visit 
+    - solo travel 
+    - couple friendly travel destination
+    - places for fun 
+    - trip with friends 
+    - weekend escape 
+    - what to do on weekends 
+    
+- intent: offices  
+  examples: |
+    - offices nearby 
+    - offices new panvel 
+    - offices panvel 
+    - lawyer office nearby 
+    - lawyers new panvel 
+    - lawyer  
+    - file law suit  
+    - lawyers with good ratings  
+    - best lawyers 
+    - real estate 
+    - real estate agents    
+    - real estate agent panvel 
+    - by property nearby 
+    - property new panvel  
+    - buy house 
+    - rent property new panvel  
+    - sell property 
+    - accountants 
+    - accountants nearby 
+    - accountants new panvel 
+    - official work  
+    - paper filing  
+    - tax filing
+    - best accountants 
+    - best real estate agents 
+    - tax managing companies 
+    - business 
+
+  
+   
+
+
+#ABHISHEK  
+- intent: hungry
+  examples: |
+   - i am feeling hungry
+   - nearby places to eat
+   - good resturants near me 
+   - suggest places to eat
+   - best dine in restaurants
+   - dhabha near me
+   - best stalls in new panvel
+   - suggest food places
+   - starving 
+   - craving food
+   - what to eat for lunch
+   - breakfast
+   - dinner
+   - lunch
+   - midnight cravings
+   - snacks
+   - craving snack
+   - healthy food options
+   
+- intent: cafe 
+  examples: |
+   - show cafe near me
+   - cafe where i can have cold coffee
+   - where can i get quick cup of coffee 
+   - budget friendly cafe near me
+   - cafe who serves italian cuisine
+   - cafe that serves japanese food 
+   - cafe
+   - cafe in new panvel
+   - aesthetic cafes 
+   - good ambiance cafes 
+   - best cafe experience
+   - suggest good cafe near
+   - new panvel high rated cafes
+   - new panvel cafe
+   - good cafe
+
+- intent: restaurants
+  examples: |
+   - find me a restaurant with outdoor seating
+   - veg restaurant near me 
+   - malvani restaurant near me 
+   - which restaurant serves seafood 
+   - budget friendly resturants near me 
+   - tell me about local restaurants with live music 
+   - recommend a restaurant for a family dinner
+   - recommend restaurant that serves alcohol 
+   - restaurants and bar near me
+   - family restaurant 
+   - new panvel restaurant
+   - famous restaurant
+   - high rattings restaurant
+   - mughalai cuisine
+   - north indian restaurant
+   - south indian restaurant
+   - rajasthani thali 
+   - punjabi dhabha
+   - dhabhas 
+   - khanavals
+
+- intent: food_and_drinks
+  examples: |
+   - find me local street food stalls 
+   - vadapav stall near me
+   - water bottle
+   - juice center near me
+   - street food
+   - tea stall near me
+   - tea stall
+   - juice 
+   - high rattings food 
+   - salads
+   - desserts
+   - biryani  
+   - burger
+   - pizza cravings
+   
+
+- intent: education
+  examples: |
+   - tell me about government initiatives promoting education in the region.
+   - find me vocational training centers for practical skills.
+   - coaching classes
+   - training bootcamps 
+   - coaching centers for competitive exams.
+   - tuition near me 
+   - english speaking classes
+   - classes new panve;
+   - coaching panvel
+   - iit coaching new panvel
+   - jee coaching
+   - great institutes
+   - institutes 
+   - mba institutes
+   - neet coaching new panvel
+   - neet examination
+   - mhtcet examination 
+   - law coaching 
+   - english speaking classes
+   - skills 
+   - skill building
+   - high studies 
+   - counselling
+   - new panvel training institutes
+   - english speaking classes 
+
+- intent: college
+  examples: |
+   - tell me about colleges offering scholarships for students in this area
+   - What types of colleges are available in New Panvel?
+   - What types of colleges are available in Panvel?
+   - colleges in panvel
+   - colleges in new panvel
+   - colleges near me
+   - colleges 
+   - college
+   - degree college in panvel
+   - degree college in new panvel
+   - pillai college of engineering
+   - graduation colleges in panvel
+   - graduation colleges in new panvel
+   - senior college
+   - colleges that offers placements 
+   - types of colleges in panvel
+   - types of colleges in new panvel
+   - university
+   - new panvel best colleges
+   -
+
+- intent: school
+  examples: |
+    - what are the best-rated secondary schools in new panvel  
+    - what are the best-rated secondary schools in panvel
+    - schools 
+    - schools near me
+    - international schools
+    - find me schools with advanced science and computer labs 
+    - gov schools
+    - goverment schools in panvel
+    - best schools near me
+    - best rated secondary schools in panvel
+    - secondary school
+    - higher secondary school
+    - schools in panvel
+    - schools in new panvel
+    - new panvel schools
+
+
+- intent: super_markets
+  examples: |
+    - super markets near me 
+    - super markets in panvel 
+    - super markest in new panvel
+    - d-mart 
+    - jio mart
+    - reliance mart
+    - all in one shop
+    - one stop shop
+    - daily needs stores 
+    - daily requirement stores
+
+    
+- intent: atm
+  examples: |
+    - atm machine near me
+    - atm machines in panvel
+    - atm machines in new panvel
+    - icici bank atm
+    - axis bank atm
+    - abhyudaya bank atm
+    - any time money
+    - cash withdrawal
+    - where can in whithdraw money using debit card 
+    - i want to wihdraw money using debit card
+    - atm new panvel
+    - best atm
+    - money
+    - cash deposit
+    - nearest cdm or atm
+    - nearest atm location
+    
+
+- intent: mall
+  examples: |
+    - tell me about malls offering a diverse range of clothing stores
+    - mall near me 
+    - shopping mall in panvel
+    - mall in panvel
+    - orian mall
+    - mall
+    - malls 
+    - new panvel mall
+    - mall discounts
+    
+- intent: emergency_services
+  examples: |
+   - emergency 
+   - ambulance service
+   - police services new panvel
+   - police station
+   - emergency hospitals
+   - urgent hospital 
+   - urgent emergency services
+   - ambulance
+   - help me 
+   - new panvel hospitals accidents
+   - nearest accident and emergency
+   - trauma 
+   - opd 
+   - accident 
+   - electricity services
+   - fire extinguish
+   - fire help
+   - get me help
+   - stuck help me
+   - police
+   - traffic police
+   - health risk
+   - power cuttoff
+   - crimes
+   - theft 
+   - roadside assistance
+   - robbery
+   - get me help as soon as possible
+   - which hospitals have 24/7 emergency rooms in this area
+   - 24/7 help 
+   - 24 hours services
+   - 24 hrs help 
+   - new panvel police station
+   - new panvel firebrigade
+   - fire station 
+   - fire fighters
+   - helpline for emergency services
+
+   
+- intent: medical_store
+  examples: |
+   - show me medicine shops
+   - show me medical stores
+   - show me medical stores in new panvel
+   - new panvel medical stores
+   - wellness forever
+   - medplus
+   - medical store
+   - medicines
+   - panvel medical stores
+   - nearby medical shops
+   - medical shops near me
+   - 24/7 medical shops
+   - medical labs
+   - diapers
+   - drug store
+   - drug store near me
+   - medicals
+   - health medicines
+   - find me medical store 
+   - good medical store
+   - 24 hrs open medical store
+   - medical supply
+   - drugs supply 
+   - homeopathy
+   - ayurvedic
+   - patanjali 
+  
+- intent: government_services
+  examples: |
+   - show government hospitals in new panvel
+   - rto offices
+   - tehsildar office
+   - muncipal corporation
+   - electricity office
+   - gram panchayat
+   - navi mumbai mahanagar palika
+   - panvel mahanagar palika 
+   - fire department 
+   - water and sewerage dept.
+   - bmc
+   - government offices new panvel 
+   - road trafic officer
+   - courts 
+   - police 
+   - road traffic
+
+- intent: transportation
+  examples: |
+   - bus routes from new panvel 
+   - bus stop
+   - railway station
+   - taxi stop
+   - rickshaw stand
+   - new panvel transportation
+   - nmmt
+   - train schedule
+   - bus schedule
+   - panvel railway station
+   - bus routes
+   - nearby stations
+   - best mode of transport
+   - transport services
+   - mobility services
+   - frequent routes
+   - airports near me
+   - new panvel transportation
+
+   
+
+- intent: my_name_is
+  examples: |
+   - i am <NAME>
+   - I'm [Palak] (person)
+   - My name is [<NAME>] (person)
+   - [Sameer] (person)
+
+  
+    
+
+   

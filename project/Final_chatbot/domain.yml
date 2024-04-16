@@ -1,0 +1,134 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://roofandfloor.thehindu.com/raf/real-estate-blog/wp-content/uploads/sites/14/2019/04/Panvel-840x480.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_mycitypedia:
+  - text: "Welcome to MyCityPedia! Your one-stop solution for all your inquiries related to New Panvel. Whether you need information about hospitals, clinics, shopping, dining, education, or emergency services, I've got you covered. Just ask, and I'll help you find the best places and services in your area!"
+
+
+  utter_hospitals:
+  - text: "Sure, I can help you find hospitals in New Panvel.
+           Please click on the relevant link for more information:'####link provide#####'
+           Hope this information helps"
+
+  utter_my_name_is:
+  - text: "Nice to meet you {person}" 
+
+ 
+  utter_clinics:
+    - text: "Certainly! When it comes to clinics or doctors , I can assist you in finding the right one.
+             Please click on the provided link for further information ######link-provide#######.
+             Hope this information was useful."
+
+  utter_shopping:
+   - text: "Certainly! I can help you find nearby shops. Please click on the link provided for further relevant    ######link-provide######### Thank you for using our shopping assistance service! If you have any more questions or need further assistance, feel free to ask. Happy shopping!"              
+                  
+  utter_hotels:
+    - text: "Sure, I can help you find hotels in your area. To provide you with the best suggestions, could you please specify your preferences? For example, are you looking for high-rated hotels, low-budget options, or hotels with specific amenities?  checkout this link for relevant information ######linkprovide####
+      If you have any more questions or need further assistance, feel free to ask. Have a pleasant stay!" 
+
+  utter_financial_institution:
+    - text: "Certainly! I can help you find nearby financial institutions. To provide you with the best suggestions, could you please specify your requirements? Are you looking for banks offering specific services like loans, fixed deposits, or insurance policies? Or you can directly checkout this link ######provide link######
+     If you have any more questions or need further assistance, feel free to ask. Have a great day!"
+
+  utter_fitness:
+    - text: "Sure, I can help you find fitness centers and gyms in your area. Are you looking for gyms, yoga centers, or specific types of fitness training such as boxing, kickboxing, or karate? you can checkout this link for further relevant information #####provide links######
+     If you have any more questions or need further assistance, feel free to ask. Stay healthy and keep up the good work!"
+     
+  utter_local_markets:
+    - text: "Certainly! I can help you find local markets in your area.Are you looking for grocery stores, fresh produce markets, clothing shops, or something else? checkout given link for more information ####provide link####
+    If you have any more questions or need further assistance, feel free to ask. Happy shopping and have a great day!"
+
+  utter_places_to_visit:
+    - text: "Certainly! I can help you find interesting places to visit in your area. feel free to checkout given link for further information ######provide links######
+     If you have any more questions or need further assistance, feel free to ask. Enjoy your visit and have a wonderful time exploring!"
+
+  utter_office_suggestions:
+    - text: "Certainly! I can help you find offices and professionals in your area. Are you looking for lawyers, real estate agents, accountants, or something else related to your official work? please check given link and proceed as per your requirement #####linkprovide######
+    Good luck with your official tasks and have a productive day!"
+
+  utter_hungry_suggestions:
+    - text: "I understand you're hungry! There are many great places to eat nearby.checkout given link for fullfilling your cravings #####provide link####
+     Enjoy your meal and have a delightful experience!"  
+  
+  utter_cafe_suggestions:
+    - text: "I understand you're hungry! There are many great places to eat nearby.checkout given link for fullfilling your cravings #####provide link####
+     Enjoy your meal and have a delightful experience!"  
+
+  utter_restaurants_suggestions:
+    - text: "I understand you're hungry! There are many great places to eat nearby.checkout given link for fullfilling your cravings #####provide link####
+     Enjoy your meal and have a delightful experience!" 
+
+  utter_food_suggestions:
+    - text: "I understand you're hungry! There are many great places to eat nearby.checkout given link for fullfilling your cravings #####provide link####
+     Enjoy your meal and have a delightful experience!" 
+
+ 
+
+  ###same way create for cafe,restaurants,food and drinks but try to change prompt message little bit do not keep similar prompt message########
+
+  utter_education:
+    - text: "Certainly! Education is crucial. There are various educational initiatives and institutes in the region catering to different needs. To provide you with the best suggestions, here is the link(######provide link####) which you can checkout for information
+    Best of luck with your educational endeavors!"
+
+  utter_college:
+    - text: "Certainly! There are various colleges in the area offering a wide range of courses. To provide you with the best information please check following link (######provide link####)"
+
+  utter_school:
+    - text: "Certainly! There are several schools in the area catering to different educational needs. checkout link for further information (######provide link####)"
+
+  utter_supermarket:
+    - text: "Certainly! There are several supermarkets and stores in the area catering to your daily needs. nearby supermarket information is (######provide link####)"
+
+  utter_atm:
+    - text: "Certainly! There are several ATMs in the area where you can withdraw or deposit money.you can get all information about atms from given link (######provide link####) "
+
+  utter_mall:
+    - text: "Certainly! There is orion mall in new panvel which caters different needs of consumers feel free to get more information from (######provide link####) "  
+
+ utter_emergency_services:
+    - text: "In case of emergencies, please dial your local emergency number immediately. For medical emergencies, you can contact nearby hospitals or ambulance services. For police assistance, you can call your local police station. If you require fire or other emergency services, please call the appropriate helpline number. Remember, your safety is important. Stay safe! (######provide link####) "
+  
+  utter_medical_store:
+    - text: "Certainly! There are several medical stores in the area offering a variety of medicines and healthcare products.to get further information about nearby medical shops click on the given link (######provide link####) 
+     Take care of your health and well-being!"
+
+  utter_government_services:
+    - text: "Certainly! There are various government services available in the area to cater to different needs. It could be government hospitals, RTO offices, tehsildar office, municipal corporation, electricity office, fire department, or any other government service. (######provide link####) 
+    We are here to help you with any information you need about government services"
+
+  utter_transportation:
+  - text: "Certainly! There are various transportation services available in the area. to get further information click on the given link (######provide link####)  ."
+
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

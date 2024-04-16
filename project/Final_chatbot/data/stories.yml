@@ -1,0 +1,218 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+
+
+
+
+
+
+
+
+- story: mycitypedia path
+  steps:
+  - intent: mycitypedia
+  - action: utter_mycitypedia
+
+- story: hospitals path
+  steps:
+  - intent: hospitals
+  - action: utter_hospitals
+
+- story: my_name_is path
+  steps:
+  - intent: my_name_is
+  - action: utter_my_name_is
+
+- story: clinics path
+  steps:
+  - intent: clinics
+  - action: utter_clinics
+
+- story: shopping path
+  steps:
+  - intent: shopping
+  - action: utter_shopping
+
+- story: hotels path
+  steps:
+  - intent: hotels
+  - action: utter_hotels
+
+
+- story: financial_institution path
+  steps:
+  - intent: financial_institution
+  - action: utter_financial_institution
+
+- story: fintness path
+  steps:
+  - intent: fintness
+  - action: utter_fitness
+
+- story: local_markets path
+  steps:
+  - intent: local_markets
+  - action: utter_local_markets
+
+- story: places_to_visit path
+  steps:
+  - intent: places_to_visit
+  - action: utter_places_to_visit
+
+- story: offices path
+  steps:
+  - intent: offices
+  - action: utter_office_suggestions
+
+
+- story: hungry path
+  steps:
+  - intent: hungry
+  - action: utter_hungry_suggestions
+
+- story: cafe path
+  steps:
+  - intent: cafe
+  - action: utter_cafe_suggestions
+
+
+
+
+- story: restaurants path
+  steps:
+  - intent: restaurants
+  - action: utter_restaurants_suggestions
+
+- story: food_and_drinks path
+  steps:
+  - intent: food_and_drinks
+  - action: utter_food_suggestions
+
+
+
+
+
+- story: education path
+  steps:
+  - intent: education
+  - action: utter_education
+
+- story: college path
+  steps:
+  - intent: college
+  - action: utter_college
+
+- story: school path
+  steps:
+  - intent: school
+  - action: utter_school
+
+- story: super_markets path
+  steps:
+  - intent: super_markets
+  - action: utter_supermarket
+
+- story: atm path
+  steps:
+  - intent: atm
+  - action: utter_atm
+
+- story: mall path
+  steps:
+  - intent: mall
+  - action: utter_mall
+
+- story: emergency_services path
+  steps:
+  - intent: emergency_services
+  - action: utter_emergency_services
+
+- story: medical_store path
+  steps:
+  - intent: medical_store
+  - action: utter_medical_store
+
+- story: government_services path
+  steps:
+  - intent: government_services
+  - action: utter_government_services
+
+- story: transportation path
+  steps:
+  - intent: transportation
+  - action: utter_transportation
+
+- story: ticc path
+  steps:
+  - intent: ticc
+  - action: utter_ticc
+
+- story: sports path
+  steps:
+  - intent: sports
+  - action: utter_sports
+
+- story: contact_us path
+  steps:
+  - intent: contact_us
+  - action: utter_contact_us
+
+- story: ctd path
+  steps:
+  - intent: ctd
+  - action: utter_ctd
+
+- story: myherupa path
+  steps:
+  - intent: myherupa
+  - action: utter_myherupa
+
+- story: webkiosk path
+  steps:
+  - intent: webkiosk
+  - action: utter_webkiosk
+
+- story: iep path
+  steps:
+  - intent: iep
+  - action: utter_iep
+
+- story: amenities path
+  steps:
+  - intent: amenities
+  - action: utter_amenities
+
+- story: campus_life path
+  steps:
+  - intent: campus_life
+  - action: utter_campus_life

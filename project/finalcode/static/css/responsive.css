@@ -1,0 +1,974 @@
+/*-------------------------------------
+
+Responsive CSS Start Here
+
+---------------------------------------*/
+
+   /*==========  Extra Large device  ==========*/
+
+@media only screen and (max-width : 1920px) {
+
+    .slider-buttom-area .slider-button-two .call-us-buttom {margin-top:20px !important;width: 230px;}
+
+    .slider-buttom-area .single-slider-buttom-area h3 {font-size: 28px;}
+
+    .our-practice-area .practice-area .single-practice p {padding: 0 0px;}
+
+    .slider-buttom-area .single-slider-buttom-area h3 {font-size: 27px;}
+
+}
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+
+
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (max-width : 1200px) {
+
+    .main-header-area .main-menu-area nav > ul > li a {padding: 0 12px;}
+
+    .slider-area .big-title {font-size: 50px;}
+
+    .slider-area .button {top: 75%;}
+
+    .slider-buttom-area .single-slider-buttom-area h3 {font-size: 26px;}
+
+    .slider-buttom-area .slider-button-two {padding: 82px 10px 88px;text-align: left;min-height: 350px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 44px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
+
+    .advertise-area {padding: 100px 0;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
+
+    font-size: 22px;}
+
+    .client-logo-area .owl-prev {left: -25px;}
+
+    .client-logo-area .owl-next {right: -25px;}
+
+    .get-free-consultation-area .contact-buttom a {padding:12px 4px;}
+
+    .get-free-consultation-area h3 {font-size: 24px;}
+
+    .Home-four .main-header-area .get-consultation a {font-size: 13px;padding: 6px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li a {padding: 10px 11px;}
+
+    .slider-buttom-area .slider-button-three ul li {font-size: 13px;padding: 0;}
+
+    .error-page-area .error-page-content p {padding: 48px 100px;}
+
+    /* .main-header-area .search-area {padding: 55px 0 52px;} */
+
+    /* .main-header-area .search-area span { top: 65px;} */
+
+    .main-header-area .main-menu-area nav > ul > li {padding: 41px 0;}
+
+    .slider-buttom-area .single-slider-buttom-area h3 {font-size: 27px;}
+
+    .slider-buttom-area .single-slider-buttom-area {padding: 85px 9px 25px !important;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li {margin-right: 5px;float: left;}
+
+
+
+    }
+
+
+
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width : 992px) {     
+      .awards .our-wining-awards-area {
+        padding: 62px 0 45px;
+      }
+      .about-page-section {
+        padding: 70px 0 0;
+      }
+      .Home-three .testimonial-area,
+      .Home-three .main-service-section-area {
+        padding: 60px 0;
+      }
+
+      .about-lawyer-featured-image {
+        transform: translateY(113px);
+      }
+
+    .main-header-area .logo-area {text-align: center;}
+
+    .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
+
+    .slider-area .big-title {font-size: 50px;}
+
+    .slider-area .small-content {padding: 25px;}
+
+    .slider-area .button {top: 70%;}
+
+    .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
+
+    .slider-buttom-area .slider-button-two {padding: 82px 5px 88px;text-align: left;min-height: 350px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
+
+    .advertise-area {padding: 100px 0;}
+
+    .about-lawyer-area .about-content-area h1 {font-size: 52px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
+
+    font-size: 22px;}
+
+    .client-logo-area .owl-prev {left: -25px;}
+
+    .client-logo-area .owl-next {right: -25px;}
+
+    .get-free-consultation-area .contact-buttom a {padding: 15px;font-size: 10px}
+
+    .get-free-consultation-area h3 {font-size: 19px;}
+
+    .Home-four .main-header-area .get-consultation a {font-size: 13px;padding: 6px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li:last-child a {display: none;}
+
+    .Home-four .menu-top-bar{display: none;}
+
+    .Home-four .main-header-area .main-menu-area{padding-top: 15px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area h2 a{font-size: 38px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area .practice-tab li a {font-size: 12px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li a {padding: 10px}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media {bottom: 50px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a {padding: 9px 10px;}
+
+    .footer-top-area .footer-one .social-media ul li a {font-size: 18px;height: 27px;padding:2px 0 0;width: 27px;}
+
+    .footer-top-area .footer h2 {font-size: 15px;}
+
+    .footer-top-area .footer-four ul li a img {width: 70px;}
+
+    .make-appointment-area .make-appointment h2 {font-size: 34px;}
+
+    .Home-three .main-header-area {position: inherit;}
+
+    .practice-area .practice-area-heading-section h2, .blog .section-title-area h2 {font-size: 43px;}
+
+    .practice-area .practice-area-heading-section p, .blog .section-title-area p {padding: 20px;}
+
+    .media.single-post .pull-left {display: block;float: none; width: 100%; padding-right: 0; margin-bottom: 20px;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar h2{font-size: 17px;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .pull-left img {width: 100%;}
+
+     .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a {padding: 5px;}
+
+     .contact-page-area .office-address h2 {font-size: 26px;}
+
+     .get-free-consultation-area .contact-buttom {margin-top: 0;}
+
+     .error-page-area .error-page-content p { padding: 48px 50px !important;}
+
+     .our-wining-awards-area .wining-section-area p { padding: 20px 50px;}
+
+     .Home-three .testimonial-area .single-testimonial p {font-size: 14px;}
+
+     .slider-buttom-area .single-slider-buttom-area h2 { font-size: 20px;}
+
+     .first-box-content { width: 200px;}
+
+     .slider-buttom-area .slider-button-one h3 {font-size: 23px;}
+
+     .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {margin-top: 23px;font-size: 12px;}
+
+     .slider-buttom-area .slider-button-two .call-us-buttom {padding: 15px 9px !important;width: 177px;}
+
+     .slider-area .button { top: 80%;}
+
+     .slider-area .small-content {padding: 0;}
+
+    .contact-page-area,
+
+    .client-logo-area,
+
+    .footer-top-area,
+
+    .about-lawyer-area,
+
+    .our-practice-area,
+
+    .happy-client-area,
+
+    .our-attorney-area,
+
+    .latest-news-area,
+
+    .experince-area,
+
+    .Home-three .service-area,
+
+    .Home-four .lawyer-expert-area,
+
+    .home4-practiceing-area,
+
+    .about-page-section,
+
+    .about-page-section .about-page-content,
+
+    .practice-area,
+
+    .our-wining-awards-area,
+
+    .total-blog-area {padding: 60px 0 67px;}
+
+    .arrow4::after {display: none;  }    
+
+    .slider-buttom-area .single-slider-buttom-area h3 {font-size: 20px;}
+
+    .phone-number {font-size: 20px;}
+
+    .latest-news-area .single-news-area h3 a {font-size: 15px;padding: 0;clear: both}
+
+    .latest-news-area .single-news-area .news-featured-image ul li {margin-right: 0;}
+
+   .get-free-consultation-area h3 {  font-size: 18px;}
+
+    .Home-three .main-header-area .main-menu-area nav > ul > li a {  color: #000000;}
+
+    .header-area-top-area .header-top-right, .header-area-top-area .header-top-left p {  display: block;  float: none;  text-align: center;}  
+
+    .slider-buttom-area .single-slider-buttom-area {  padding: 30px 9px 18px !important;}
+
+    .slider-buttom-area .single-slider-buttom-area {height: 350px;}
+
+    .about-lawyer-area .about-content-area { margin: 15px 0;}
+
+    .slider-buttom-area .slider-button-three ul li span {  margin-left: 90px;}
+
+    .our-practice-area .practice-area .single-practice h3 a {font-size: 20px;}
+
+    .latest-news-area .single-news-area h3 a {  font-size: 20px;  padding: 20px 0 0;}
+
+    .blog .section-title-area h2 {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+
+
+
+
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 767px) {
+  .contact-page-area .contact-form-area h2 {
+    font-size: 26px;
+  }
+  .blog-comments-area {
+    margin: 60px 0 50px;
+  }
+  .awards .our-wining-awards-area {
+    padding: 52px 0 35px;
+  }
+  .about-page-section .about-page-content {margin-bottom: 30px;}
+  .about-page-section .about-page-content h2 {font-size: 30px;}
+  .Home-three .testimonial-area,
+  .Home-three .main-service-section-area {
+    padding: 50px 0;
+  }
+
+  .about-us .about-page-section {
+    padding: 60px 0 0;
+  }
+
+  .about-page-content {
+    padding: 0;
+  }
+
+  .get-free-consultation-area {
+    padding: 30px 0 40px;
+  }
+
+  .about-lawyer-featured-image {
+    transform: translateY(0);
+  }
+
+	.mobile-menu-area{display: block;}
+
+	.main-header-area{display: none;}
+
+    .main-header-area .logo-area {text-align: center;}
+
+    .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
+
+    .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
+
+    .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
+
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 40px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
+
+    .advertise-area {padding: 100px 0;}
+
+    .about-lawyer-area .about-content-area h1 {font-size: 50px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
+
+    font-size: 22px;}
+
+    .client-logo-area .owl-prev {left: -25px;}
+
+    .client-logo-area .owl-next {right: -25px;}
+
+    .get-free-consultation-area .contact-buttom a {padding: 15px 9px;font-size: 10px}
+
+    .get-free-consultation-area h3 {font-size: 16px;margin: 20px 0;}
+
+    .Home-four .main-header-area .get-consultation a {font-size: 13px;padding: 6px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li:last-child a {display: block;}
+
+    .Home-four .menu-top-bar{display: none;}
+
+    .Home-four .main-header-area .main-menu-area{padding-top: 15px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area h2 a{font-size: 38px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area .practice-tab li a {font-size: 12px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li a {padding: 10px}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media {bottom: 50px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a {padding: 9px 10px;}
+
+    .footer-top-area .footer-one .social-media ul li a {font-size: 18px;height: 27px;padding:2px 0 0;width: 27px;}
+
+    .footer-top-area .footer h2 {font-size: 24px;}
+
+    .footer-top-area .footer-four ul li {width: 31%;}
+    .footer-top-area .footer-four ul li a img {width: 100%;}
+
+    .make-appointment-area .make-appointment h2 {font-size: 20px;}
+
+    .Home-three .main-header-area {position: inherit;}
+
+    .practice-area .practice-area-heading-section h2, .blog .section-title-area h2 {font-size: 26px;}
+
+    .practice-area .practice-area-heading-section p, .blog .section-title-area p {padding: 20px;}
+
+    .media.single-post .pull-left {display: block;float: none; width: 100%; margin-bottom: 0;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar h2{font-size: 17px;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .pull-left img {
+
+     width: 100%;}
+
+     .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a {padding: 5px;}
+
+     .contact-page-area .office-address h2 {font-size: 26px;}
+
+     .get-free-consultation-area .contact-buttom {margin-top: 0;}
+
+    .banner-area {padding: 45px 0;}
+
+    .get-free-consultation-area, .slider-buttom-area .slider-button-one, .slider-buttom-area .slider-button-two, .slider-buttom-area .slider-button-three{text-align: center;}
+
+    .footer {margin: 40px 0;}
+
+    .about-lawyer-featured-image img {width: 100%;}
+
+    .section-title-area h2{font-size: 29px;}
+
+    .section-title-area p {  padding: 0 10px;}
+
+    .advertise-area .bennar h2 {font-size: 40px;}
+
+    .happy-client-area .client-section-area .owl-prev{left: -20px;}
+
+    .happy-client-area .client-section-area .owl-next{right: -20px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay h2 a {padding: 7px 20px;}
+
+    .latest-news-area .single-news-area .news-featured-image img {width: 100%;}
+
+    .Home-three .testimonial-area .single-testimonial p {font-size: 14px;line-height: 20px;  padding: 0 46px;}
+
+    .Home-four .lawyer-expert-area .lawyer-expert-section-area .single-lawyer-expert {
+
+  text-align: center;padding:10px;}
+
+  .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
+
+  .about-page-section .about-page-featured-image img {width: 100%;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+
+  .our-wining-awards-area .wining-section-area h2 {font-size: 30px;}
+
+  .our-wining-awards-area .wining-section-area p { padding: 20px;}
+
+  .first-box-content {  text-align: center;  width: 100%;} 
+
+    .contact-page-area,
+
+    .client-logo-area,
+
+    .footer-top-area,
+
+    .about-lawyer-area,
+
+    .our-practice-area,
+
+    .happy-client-area,
+
+    .our-attorney-area,
+
+    .latest-news-area,
+
+    .experince-area,
+
+    .Home-three .service-area,
+
+    .Home-four .lawyer-expert-area,
+
+    .home4-practiceing-area,
+
+    .about-page-section,
+
+    .about-page-section .about-page-content,
+
+    .practice-area,
+
+    .our-wining-awards-area,
+
+    .total-blog-area {padding: 50px 0;}
+
+    .slider-buttom-area .single-slider-buttom-area {margin-top: 50px;position: relative;}
+
+    .latest-news-area .single-news-area {height: auto;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .media-body h4 a {margin: 25px 0 10px;}
+
+     .arrow4::after{display: none;}     
+
+     .single-practice-service-content-area .media-left.media-middle {  display: block;  float: none;  text-align: center;}  
+
+     .practice-area .practice-service-section-area .single-practice-service-content-area .content {
+
+        border-left: 0px;  padding-left: 0 !important;text-align: center;}
+
+    .single-practice-service-content-area .practice-area .practice-service-section-area .single-practice-service-content-area .content p {
+
+    padding-right: 0;}
+
+    .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more {
+
+    position: inherit;  right: 0;  top: 0;}
+
+    .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more a {
+
+  display: block;padding: 8px 15px;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area .content p {padding-right: 0em;}
+
+ .slider-buttom-area .single-slider-buttom-area {margin-top: 0px;position: relative;}
+
+    .header-area-top-area .header-top-right, .header-area-top-area .header-top-left p {  display: block;  float: none;  text-align: center;}  
+
+    .slider-buttom-area .single-slider-buttom-area {  padding: 30px 9px 18px !important;}
+
+    .slider-buttom-area .single-slider-buttom-area {height: 285px;}
+
+    .about-lawyer-area .about-content-area { margin: 50px 0 10px;}
+
+    .slider-buttom-area .slider-button-three ul li span {  margin-left: 90px;}
+
+    .our-practice-area .practice-area .single-practice h3 a {font-size: 20px;}
+
+    .latest-news-area .single-news-area h3 a {  font-size: 20px;  padding: 20px 0 0;}
+
+    .banner-area .main-bennar h2 {font-size: 30px; margin-bottom: 0;}
+
+  }
+
+
+
+    /* Extra Small Devices, Phones */ 
+
+    @media only screen and (max-width : 480px) {
+      .contact-page-area .contact-form-area h2 {
+        font-size: 24px;
+      }
+      .blog-comments-area {
+        margin: 40px 0 50px;
+      }
+      .awards .our-wining-awards-area {
+        padding: 42px 0 25px;
+      }
+      .Home-three .testimonial-area,
+      .Home-three .main-service-section-area {
+        padding: 40px 0;
+      }
+
+      .about-us .about-page-section {
+        padding: 50px 0 0;
+      }
+
+    .mobile-menu-area{display: block;}
+
+    .main-header-area{display: none;}
+
+    .contact-page-area,
+
+    .client-logo-area,
+
+    .footer-top-area,
+
+    .about-lawyer-area,
+
+    .our-practice-area,
+
+    .happy-client-area,
+
+    .our-attorney-area,
+
+    .latest-news-area,
+
+    .experince-area,
+
+    .Home-three .service-area,
+
+    .Home-four .lawyer-expert-area,
+
+    .home4-practiceing-area,
+
+    .about-page-section,
+
+    .about-page-section .about-page-content,
+
+    .practice-area,
+
+    .our-wining-awards-area,
+
+    .total-blog-area {padding: 40px 0;}
+
+    .latest-news-area .single-news-area {height: auto;}
+
+    .main-header-area .logo-area, .our-attorney-area .our-attorney .attorney-content {text-align: center;}
+
+    .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
+
+    .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
+
+    .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
+
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
+
+    .advertise-area {padding: 100px 0;}
+
+    .about-lawyer-area .about-content-area h1 {font-size: 30px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
+
+    font-size: 22px;}
+
+    .client-logo-area .owl-prev {left: -25px;}
+
+    .client-logo-area .owl-next {right: -25px;}
+
+    .get-free-consultation-area .contact-buttom a {padding: 15px 9px; font-size: 12px}
+
+    .get-free-consultation-area h3 {font-size: 16px;margin: 20px 0;}
+
+    .Home-four .main-header-area .get-consultation a {font-size: 13px;padding: 6px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li:last-child a {display: block;}
+
+    .Home-four .menu-top-bar{display: none;}
+
+    .Home-four .main-header-area .main-menu-area{padding-top: 15px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area h2 a{font-size: 25px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area .practice-tab li a {font-size: 12px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li a {padding: 10px}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media {bottom: 50px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a {padding: 9px 10px;}
+
+    .footer-top-area .footer-one .social-media ul li a {font-size: 18px;height: 27px;padding:2px 0 0;width: 27px;}
+
+    .footer-top-area .footer h2 {font-size: 24px;}
+
+    .footer-top-area .footer-four ul li a img {width: 100%;margin-bottom: 3px;}
+
+    .make-appointment-area .make-appointment h2 {font-size: 14px;}
+
+    .Home-three .main-header-area {position: inherit;}
+
+    .practice-area .practice-area-heading-section h2, .blog .section-title-area h2 {font-size: 16px;}
+
+    .practice-area .practice-area-heading-section p, .blog .section-title-area p {padding: 5px;}
+
+    .media.single-post .pull-left {display: block;float: none; width: 100%;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar h2{font-size: 17px;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .pull-left img {
+
+     width: 100%;}
+
+     .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a {padding: 5px;}
+
+     .contact-page-area .office-address h2 {font-size: 26px;}
+
+     .get-free-consultation-area .contact-buttom {margin-top: 0;}
+
+    .banner-area {padding: 45px 0;}
+
+    .get-free-consultation-area, .slider-buttom-area .slider-button-one, .slider-buttom-area .slider-button-two, .slider-buttom-area .slider-button-three{text-align: center;}
+
+    .footer {margin: 40px 0;text-align: center;}
+
+    .about-lawyer-featured-image img {width: 100%;}
+
+    .section-title-area h2{font-size: 17px;}
+
+    .section-title-area p {  padding: 0 10px;}
+
+    .advertise-area .bennar h2 {font-size: 30px;}
+
+    .happy-client-area .client-section-area .owl-prev{left: -20px;}
+
+    .happy-client-area .client-section-area .owl-next{right: -20px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay h2 a {padding: 7px 20px;}
+
+    .latest-news-area .single-news-area .news-featured-image img {width: 100%;}
+
+    .Home-three .testimonial-area .single-testimonial p {font-size: 14px;line-height: 20px;  padding: 0 46px;}
+
+    .Home-four .lawyer-expert-area .lawyer-expert-section-area .single-lawyer-expert {
+
+  text-align: center;padding:10px;}
+
+  .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
+
+  .about-page-section .about-page-featured-image img {width: 100%;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+
+  .our-wining-awards-area .wining-section-area h2 {font-size: 25px;}
+
+  .our-wining-awards-area .wining-section-area p { padding: 5px 0;}
+
+  .experince-area .experince h2 {font-size: 30px;}
+
+  .experince-area p {font-size: 14px;font-weight: normal;line-height: 21px;margin: 10px 0;text-align: center;}
+
+  .make-appointment-area .make-appointment a {font-size: 11px;padding: 8px;}
+
+  .footer-top-area .footer h2::after {margin: 21px auto;}
+
+  .footer-top-area .footer-two ul li::before {display: none;}
+
+  .footer-top-area .footer-one .social-media ul li {display: inline-block;float: none;}
+
+  .about-page-section .about-page-content h2 {font-size: 26px;}
+
+  .banner-area .main-bennar h2 {font-size: 28px; margin-bottom: 0;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more { margin: 35px 0;position: inherit;right: 0;width: 130px;}
+
+  .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .media-body h4 a {
+
+  margin: 15px 0 0;}  
+
+    .slider-buttom-area .single-slider-buttom-area {margin-top: 0px;position: relative;}
+
+    .latest-news-area .single-news-area {height: auto;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .media-body h4 a {margin: 25px 0 10px;}
+
+    .happy-client-area .single-client-area p {margin: 60px 10px 20px;}
+
+    .arrow4::after{display: none;}
+
+     .single-practice-service-content-area .media-left.media-middle {  display: block;  float: none;  text-align: center;}  
+
+     .practice-area .practice-service-section-area .single-practice-service-content-area .content {
+
+        border-left: 0px;  padding-left: 0 !important;text-align: center;}
+
+    .single-practice-service-content-area .practice-area .practice-service-section-area .single-practice-service-content-area .content p {
+
+    padding-right: 0;}
+
+    .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more {
+
+      display: inline;
+
+      position: inherit;
+
+      right: 0;
+
+      text-align: center;
+
+      top: 0;
+
+    }
+
+    .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more a {
+
+  display: block;padding: 8px 15px;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area .content p {padding-right: 0em;}
+
+    .header-area-top-area .header-top-right, .header-area-top-area .header-top-left p {  display: block;  float: none;  text-align: center;}  
+
+    .slider-buttom-area .single-slider-buttom-area {  padding: 30px 9px 18px !important;}
+
+    .slider-buttom-area .single-slider-buttom-area {height: 235px;}
+
+    .about-lawyer-area .about-content-area { margin: 15px 0;}
+
+    .slider-buttom-area .slider-button-three ul li span {  margin-left: 90px;}
+
+    .our-practice-area .practice-area .single-practice h3 a {font-size: 20px;}
+
+    .latest-news-area .single-news-area h3 a {  font-size: 20px;  padding: 20px 0 0;}
+
+    .slider-content {display: none;}
+
+    }
+
+
+
+    /* Custom, iPhone Retina */ 
+
+    @media only screen and (max-width : 320px) {
+
+    .mobile-menu-area{display: block;}
+
+    .main-header-area{display: none;}
+
+    .contact-page-area,
+
+    .client-logo-area,
+
+    .footer-top-area,
+
+    .about-lawyer-area,
+
+    .our-practice-area,
+
+    .happy-client-area,
+
+    .our-attorney-area,
+
+    .latest-news-area,
+
+    .experince-area,
+
+    .Home-three .service-area,
+
+    .Home-four .lawyer-expert-area,
+
+    .home4-practiceing-area,
+
+    .about-page-section,
+
+    .about-page-section .about-page-content,
+
+    .practice-area,
+
+    .our-wining-awards-area,
+
+    .total-blog-area {padding: 30px 0;}
+
+    .latest-news-area .single-news-area {height: auto;}
+
+    .main-header-area .logo-area, .our-attorney-area .our-attorney .attorney-content {text-align: center;}
+
+    .main-header-area .main-menu-area nav > ul > li a {padding: 0 20px;}
+
+    .slider-area .big-title, .slider-area .small-content, .slider-area .button {display: none;}
+
+    .slider-buttom-area .single-slider-buttom-area h2 a {font-size: 26px;}
+
+    .slider-buttom-area .slider-button-two {padding: 82px 2px 88px;text-align: left;min-height: 350px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom {padding: 15px 17px;}
+
+    .slider-buttom-area .single-slider-buttom-area a.call-us-buttom::after{display: none;}
+
+    .advertise-area {padding: 10px 0;}
+
+    .about-lawyer-area .about-content-area h1 {font-size: 30px;line-height: 45px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a i {
+
+    font-size: 22px;}
+
+    .client-logo-area .owl-prev {left: -25px;}
+
+    .client-logo-area .owl-next {right: -25px;}
+
+    .get-free-consultation-area .contact-buttom a {padding: 15px;font-size: 10px}
+
+    .get-free-consultation-area h3 {font-size: 16px;margin: 20px 0;}
+
+    .Home-four .main-header-area .get-consultation a {font-size: 13px;padding: 6px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li:last-child a {display: block;}
+
+    .Home-four .menu-top-bar{display: none;}
+
+    .Home-four .main-header-area .main-menu-area{padding-top: 15px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area h2 a{font-size: 25px;}
+
+    .home4-practiceing-area .home4-practiceing-content-area .practice-tab li a {font-size: 12px;}
+
+    .latest-news-area .single-news-area .news-featured-image ul li a {padding: 10px}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media {bottom: 50px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay .social-media ul li a {padding: 9px 10px;}
+
+    .footer-top-area .footer-one .social-media ul li a {font-size: 18px;height: 27px;padding:2px 0 0;width: 27px;}
+
+    .footer-top-area .footer h2 {font-size: 24px;}
+
+    .footer-top-area .footer-four ul li a img {width: 100%;margin-bottom: 3px;}
+
+    .make-appointment-area .make-appointment h2 {font-size: 14px;}
+
+    .Home-three .main-header-area {position: inherit;}
+
+    .practice-area .practice-area-heading-section h2, .blog .section-title-area h2 {font-size: 25px;}
+
+    .practice-area .practice-area-heading-section p, .blog .section-title-area p {padding: 5px;}
+
+    .media.single-post .pull-left {display: block;float: none; width: 100%;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar h2{font-size: 17px;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .pull-left img {
+
+     width: 100%;}
+
+     .total-blog-area .blog-sidebar-area .single-sidebar .popular-tags ul li a {padding: 5px;}
+
+     .contact-page-area .office-address h2 {font-size: 26px;}
+
+     .get-free-consultation-area .contact-buttom {margin-top: 0;}
+
+    .banner-area {padding: 45px 0;}
+
+    .get-free-consultation-area, .slider-buttom-area .slider-button-one, .slider-buttom-area .slider-button-two, .slider-buttom-area .slider-button-three{text-align: center;}
+
+    .footer {margin: 40px 0;text-align: center;}
+
+    .about-lawyer-featured-image img {width: 100%;}
+
+    .section-title-area h2{font-size: 25px;}
+
+    .section-title-area p {  padding: 0 10px;}
+
+    .advertise-area .bennar h2 {font-size: 22px;line-height: 33px;margin-top: 15px;}
+
+    .happy-client-area .client-section-area .owl-prev{left: -20px;}
+
+    .happy-client-area .client-section-area .owl-next{right: -20px;}
+
+    .our-attorney-area .our-attorney .single-attorney .attorney-picture .overlay h2 a {padding: 7px 20px;}
+
+    .latest-news-area .single-news-area .news-featured-image img {width: 100%;}
+
+    .Home-three .testimonial-area .single-testimonial p {font-size: 14px;line-height: 20px;  padding: 0 46px;}
+
+    .Home-four .lawyer-expert-area .lawyer-expert-section-area .single-lawyer-expert {
+
+  text-align: center;padding:10px;}
+
+  .single-lawyer-expert .media-left.ex-icons {display: block; float: none;margin: 10px auto;width: 100%;}
+
+  .about-page-section .about-page-featured-image img {width: 100%;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area{padding: 10px 0;}
+
+  .our-wining-awards-area .wining-section-area h2 {font-size: 25px;}
+
+  .our-wining-awards-area .wining-section-area p { padding: 5px 0;}
+
+  .experince-area .experince h2 {font-size: 30px;}
+
+  .experince-area p {font-size: 14px;font-weight: normal;line-height: 21px;margin: 10px 0;text-align: center;}
+
+  .make-appointment-area .make-appointment a {font-size: 11px;padding: 8px;}
+
+  .footer-top-area .footer h2::after {margin: 21px auto;}
+
+  .footer-top-area .footer-two ul li::before {display: none;}
+
+  .footer-top-area .footer-one .social-media ul li {display: inline-block;float: none;}
+
+  .about-page-section .about-page-content h2 {font-size: 24px;}
+
+  .banner-area .main-bennar h2 {font-size: 26px;}
+
+  .practice-area .practice-service-section-area .single-practice-service-content-area .content .practice-service-read-more { margin: 35px 0;position: inherit;right: 0;width: 130px;}
+
+  .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .media-body h4 a {
+
+  margin: 15px 0 0;}
+
+    .slider-buttom-area .single-slider-buttom-area {margin-top: 0px;position: relative;}
+
+    .latest-news-area .single-news-area {height: auto;}
+
+    .total-blog-area .blog-sidebar-area .single-sidebar .sidebar-recent-post .media-body h4 a {margin: 25px 0 10px;}
+
+    .arrow4::after{display: none;}
+
+    .header-area-top-area .header-top-right, .header-area-top-area .header-top-left p {  display: block;  float: none;  text-align: center;}  
+
+    .slider-buttom-area .single-slider-buttom-area {  padding: 30px 9px 18px !important;}
+
+    .slider-buttom-area .single-slider-buttom-area {height: 285px;}
+
+    .about-lawyer-area .about-content-area { margin: 15px 0;}
+
+    .slider-buttom-area .slider-button-three ul li span {  margin-left: 90px;}
+
+    .our-practice-area .practice-area .single-practice h3 a {font-size: 20px;}
+
+    .latest-news-area .single-news-area h3 a {  font-size: 20px;  padding: 20px 0 0;}
+
+    .slider-content{  display: none !important;}
+
+    }
